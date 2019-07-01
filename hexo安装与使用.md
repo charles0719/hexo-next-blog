@@ -55,12 +55,13 @@ https://[userName]:[password]@github.com/[username]/project.git
 
 
 ## hexo的使用
+
 ### hexo安装主题
 Anisina---放到themes目录下,修改_config.xml
 
-===============================================================
+## 图床
 七牛云作为图床,使用aifred快捷工具,自动上传图片,copy,windows下可研究wox,或者launchy
-
+（只能使用一个月，以后是收费的，后来就不用了）
 
 ### 新加tags页面
 hexo new page tags
@@ -95,5 +96,22 @@ url: images/avatar.jpg(文件名)
 
 ## 问题处理
 
-### npm install --save hexo-deployer-git报错(处理了x个多小时)
+### npm install --save hexo-deployer-git报错(处理了x个小时)
 在npm安装路径上删除hexo-deployer-git目录,重新安装,解决
+
+
+
+### velocity.min.js 等 not found
+
+```
+Failed to load resource: the server responded with a status of 404 ()
+pace.min.js
+velocity.min.js
+font-awesome.min.css
+```
+
+`themes/next_v6/_config.xml`有配置项`vendors`
+配置示例：`jquery: //cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js`
+
+以前没有配置，也能启动，现在莫名其妙报错，无语。。。
+
