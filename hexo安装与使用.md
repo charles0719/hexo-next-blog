@@ -1,6 +1,15 @@
-ÔÚnode°²×°Ä¿Â¼ÏÂĞÂ½¨ÎÄ¼ş¼Ğnode_globalºÍnode_cache
+## hexoçš„æ—¥å¸¸ä½¿ç”¨
+
+- npm install ç”Ÿæˆéœ€è¦è¿è¡Œçš„nodeç»„ä»¶
+- hexo s  å¯åŠ¨æœåŠ¡å™¨
+- hexo g ç”Ÿæˆæ–‡ä»¶(å°†mdè½¬æ¢æˆhtml)ï¼Œåœ¨publicç›®å½•ä¸‹
+- hexo c æ¸…ç©ºpublicç›®å½•ä¸‹çš„æ‰€æœ‰æ–‡ä»¶
+- hexo d å°†æœ¬åœ°æ–‡ä»¶éƒ¨ç½²åˆ°githubä¸Šé¢å»
 
 
+## nodeé…ç½®
+- è®¾ç½®node å…¨å±€é…ç½®å’Œç¼“å­˜çš„åœ°æ–¹
+åœ¨nodeå®‰è£…ç›®å½•ä¸‹æ–°å»ºæ–‡ä»¶å¤¹node_globalå’Œnode_cache
 npm config set prefix "D:\Program Files\nodejs\node_global"
 npm config set cache "D:\Program Files\nodejs\node_cache"
 
@@ -10,26 +19,26 @@ npm install hexo --save
 npm install hexo-deployer-git -g
 npm install --save hexo-deployer-git
 
-### ÅäÖÃnode.js
+## é…ç½®node.js
 NODE_PATH
 D:\Program Files\nodejs\node_modules
 
-### ÅäÖÃhexoÈ«¾ÖÃüÁî
+## é…ç½®hexoå…¨å±€å‘½ä»¤
 PATH
 D:\Program Files\nodejs\node_global\node_modules\hexo-cli\node_modules\.bin
 
-### ³õÊ¼»¯blog
+## åˆå§‹åŒ–blog
 
 hexo init charles_blog
 cd charles_blog
 npm install
-hexo g Éú³É¾²Ì¬ÍøÒ³ ÔÚpublicÎÄ¼ş¼ĞÏÂ
-hexo s -p 9170  ·şÎñÆ÷Æô¶¯
+hexo g ç”Ÿæˆé™æ€ç½‘é¡µ åœ¨publicæ–‡ä»¶å¤¹ä¸‹
+hexo s -p 9170  æœåŠ¡å™¨å¯åŠ¨
 
 
-source/_posts/hello-world.md ¾ÍÊÇÊ×Ò³
+source/_posts/hello-world.md å°±æ˜¯é¦–é¡µ
 
-ĞŞ¸Äconfig.yml
+ä¿®æ”¹config.yml
 url: https://charles0719.github.io
 
 type:git
@@ -39,51 +48,52 @@ repo:https://github.com/charles0719/charles0719.github.io.git
 
 
 npm install hexo-deployer-git -g
-ÉèÖÃ_config.yml
+è®¾ç½®_config.yml
 https://[userName]:[password]@github.com/[username]/project.git
 
 
 
 
-## hexo°²×°Ö÷Ìâ
-Anisina---·Åµ½themesÄ¿Â¼ÏÂ,ĞŞ¸Ä_config.xml
+## hexoçš„ä½¿ç”¨
+### hexoå®‰è£…ä¸»é¢˜
+Anisina---æ”¾åˆ°themesç›®å½•ä¸‹,ä¿®æ”¹_config.xml
 
 ===============================================================
-ÆßÅ£ÔÆ×÷ÎªÍ¼´²,Ê¹ÓÃaifred¿ì½İ¹¤¾ß,×Ô¶¯ÉÏ´«Í¼Æ¬,copy,windowsÏÂ¿ÉÑĞ¾¿wox,»òÕßlaunchy
+ä¸ƒç‰›äº‘ä½œä¸ºå›¾åºŠ,ä½¿ç”¨aifredå¿«æ·å·¥å…·,è‡ªåŠ¨ä¸Šä¼ å›¾ç‰‡,copy,windowsä¸‹å¯ç ”ç©¶wox,æˆ–è€…launchy
 
 
-## ĞÂ¼ÓtagsÒ³Ãæ
+### æ–°åŠ tagsé¡µé¢
 hexo new page tags
-sources/tagsÀïÃæÓĞ¸öindex.mdµÄÎÄ¼ş,ĞŞ¸Ätypes: tags
-ÔÚÖ÷ÌâÅäÖÃÎÄ¼şÖĞ£¬ÔÚmenuÏîÏÂ£¬Òª°ÑtagsÒ³´ò¿ª
+sources/tagsé‡Œé¢æœ‰ä¸ªindex.mdçš„æ–‡ä»¶,ä¿®æ”¹types: tags
+åœ¨ä¸»é¢˜é…ç½®æ–‡ä»¶ä¸­ï¼Œåœ¨menué¡¹ä¸‹ï¼Œè¦æŠŠtagsé¡µæ‰“å¼€
 
 
-## ÉèÖÃÖĞÎÄ
-languageĞĞÉèÖÃÎªzh-CN£¨ÖĞÎÄ£©zh-EN(Ó¢ÎÄ)
-×¢ÒâÈç¹ûĞŞ¸Äºó²»Æğ×÷ÓÃ£¬ÇëÀ´µ½theme/next/languages/Ä¿Â¼ÏÂ²é¿´ÊÇ·ñÓĞzh-CN.yml
+### è®¾ç½®ä¸­æ–‡
+languageè¡Œè®¾ç½®ä¸ºzh-CNï¼ˆä¸­æ–‡ï¼‰zh-EN(è‹±æ–‡)
+æ³¨æ„å¦‚æœä¿®æ”¹åä¸èµ·ä½œç”¨ï¼Œè¯·æ¥åˆ°theme/next/languages/ç›®å½•ä¸‹æŸ¥çœ‹æ˜¯å¦æœ‰zh-CN.yml
 
 
-## Ôö¼Ó±êÇ©Ò³ºÍ·ÖÀàÒ³
-ÔÚÖ÷ÌâÅäÖÃÎÄ¼şmenuÉèÖÃ
+### å¢åŠ æ ‡ç­¾é¡µå’Œåˆ†ç±»é¡µ
+åœ¨ä¸»é¢˜é…ç½®æ–‡ä»¶menuè®¾ç½®
 hexo n page tags
-hexo n page categoriesÔÚ²©¿ÍµÄsourceµÄÄ¿Â¼ÏÂÉú³É¶ÔÓ¦µÄÎÄ¼ş¼Ğ
-ÔÚtagesÄ¿Â¼ÏÂµÄindex.mdÔö¼Ótype:tags
+hexo n page categoriesåœ¨åšå®¢çš„sourceçš„ç›®å½•ä¸‹ç”Ÿæˆå¯¹åº”çš„æ–‡ä»¶å¤¹
+åœ¨tagesç›®å½•ä¸‹çš„index.mdå¢åŠ type:tags
 
 
-## Ö÷ÌâÑùÊ½
-Ö÷ÌâÅäÖÃÎÄ¼şschemaĞŞ¸Ä
+### ä¸»é¢˜æ ·å¼
+ä¸»é¢˜é…ç½®æ–‡ä»¶schemaä¿®æ”¹
 
-## ÉèÖÃÍ·Ïñ
+### è®¾ç½®å¤´åƒ
 avatar
-ÔÚÖ÷ÌâµÄsource/imagesÀïÃæ·ÅÖÃÍ¼Æ¬
-Ö÷ÌâÅäÖÃÎÄ¼ş:
-url: images/avatar.jpg(ÎÄ¼şÃû)
+åœ¨ä¸»é¢˜çš„source/imagesé‡Œé¢æ”¾ç½®å›¾ç‰‡
+ä¸»é¢˜é…ç½®æ–‡ä»¶:
+url: images/avatar.jpg(æ–‡ä»¶å)
 
-## Éç½»ÕËºÅ
-Ö÷ÌâÅäÖÃsocial
+### ç¤¾äº¤è´¦å·
+ä¸»é¢˜é…ç½®social
 
 
-## ÎÊÌâ´¦Àí
+## é—®é¢˜å¤„ç†
 
-### npm install --save hexo-deployer-git±¨´í(´¦ÀíÁË3¸ö¶àĞ¡Ê±)
-ÔÚnpm°²×°Â·¾¶ÉÏÉ¾³ıhexo-deployer-gitÄ¿Â¼,ÖØĞÂ°²×°,½â¾ö
+### npm install --save hexo-deployer-gitæŠ¥é”™(å¤„ç†äº†xä¸ªå¤šå°æ—¶)
+åœ¨npmå®‰è£…è·¯å¾„ä¸Šåˆ é™¤hexo-deployer-gitç›®å½•,é‡æ–°å®‰è£…,è§£å†³
