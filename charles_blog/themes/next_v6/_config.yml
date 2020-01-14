@@ -325,7 +325,7 @@ codeblock:
 # Wechat Subscriber
 wechat_subscriber:
   enabled: true
-  qcode: http://pj55chpdo.bkt.clouddn.com/18-12-3/64267586.jpg
+  qcode: /images/qrcode.jpg
   description: 欢迎您扫一扫上面的微信公众号，订阅我的博客！
 
 # Reward
@@ -1094,3 +1094,15 @@ post_wordcount:
   min2read: true          # 单篇 阅读时长
   totalcount: false       # 网站 字数统计
   separated_meta: true
+
+live2d:
+  enable: true
+  pluginModelPath: assets/
+  model:
+    use: live2d-widget-model-epsilon2_1  #模板目录，在node_modules里
+  display:
+    position: right
+    width: 150 
+    height: 300
+  mobile:
+    show: false  #是否在手机进行显示

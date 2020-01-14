@@ -32,6 +32,7 @@ categories:
 1. 有序字段m
 2. 有序字段n
 ```
+<!--more-->
 
 ## 导航
 [百度](https://www.baidu.com)
@@ -42,11 +43,13 @@ categories:
 ## 图片
 建议使用七牛云+极简图床  --只有30天的试用期,是30天之后就要重新设置??
 ```
-![图片名称](http://pj55chpdo.bkt.clouddn.com/18-12-3/72460760.jpg)
+![图片名称](https://i.loli.net/2019/07/29/5d3e558cda90e46318.png)
+
 ```
-![长颈鹿](http://pj55chpdo.bkt.clouddn.com/18-12-3/72460760.jpg)
+![哈利波特](https://i.loli.net/2019/07/29/5d3e558cda90e46318.png)
 [七牛云注册帮助](http://jiantuku.com/help/faq.html?src=settings_head)
 
+可以使用微博图床，SM.MS，github图床代替
 
 ## 字体
 ```

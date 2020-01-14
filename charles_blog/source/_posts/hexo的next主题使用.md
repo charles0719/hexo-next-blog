@@ -10,6 +10,22 @@ categories: blog
 	
 	
 ---
+# hexo的日常使用
+## 新建文章
+hexo new post xxx 
+
+## 发布到github
+hexo d
+
+## 启动本地服务器
+hexo s
+
+## 清理本地文件
+hexo clean
+
+## 生成本地文件
+hexo g
+
 # 博客配置注意点
 ```
 # permalink: :year/:month/:day/:title/ :title.html

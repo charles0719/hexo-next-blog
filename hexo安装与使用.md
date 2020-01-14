@@ -1,3 +1,5 @@
+# hexo入门
+
 ## hexo的日常使用
 
 - npm install 生成需要运行的node组件
@@ -59,7 +61,7 @@ https://[userName]:[password]@github.com/[username]/project.git
 ### hexo安装主题
 Anisina---放到themes目录下,修改_config.xml
 
-## 图床
+### 图床
 七牛云作为图床,使用aifred快捷工具,自动上传图片,copy,windows下可研究wox,或者launchy
 （只能使用一个月，以后是收费的，后来就不用了）
 
@@ -92,6 +94,15 @@ url: images/avatar.jpg(文件名)
 
 ### 社交账号
 主题配置social
+
+### 增加live2d
+
+```shell
+npm install --save hexo-helper-live2d
+
+# 可选。具体参考https://github.com/xiazeyu/live2d-widget-models.git或百度
+npm install --save live2d-widget-model-epsilon2_1
+```
 
 
 ## 问题处理
